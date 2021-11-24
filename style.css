@@ -126,3 +126,93 @@ body {
 .inputBox ::placeholder {
     color: #999;
 }
+
+
+/* info */
+
+.contactmap {
+    background: #E41F7B;
+}
+
+.contactmap h3 {
+    color: #fff;
+}
+
+.contactmap .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contactmap .infoBox div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #F4ABC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contactmap .infoBox div p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.contactmap .infoBox div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sci {
+    margin-top: 40px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.sci li a {
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.sci li a:hover {
+    color: #fff;
+}
+
+span {
+    content: "\00A9";
+}
+
+
+/* Responsive Design */
+
+@media(max-width:991px) {
+    body {
+        background: #F4ABC4;
+    }
+    .contactUs {
+        padding: 20px;
+    }
+    .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "info" "map";
+    }
+    .map {
+        min-height: 300px;
+    }
+    .infoBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+}
