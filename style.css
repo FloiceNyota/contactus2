@@ -99,5 +99,30 @@ body {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
-    border: #C3195D;
+    border: 1px solid #C3195D;
+}
+
+.inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #C3195D;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"] {
+    background: #060930;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+
+.inputBox ::placeholder {
+    color: #999;
 }
